@@ -18,7 +18,8 @@
   const speed = document.querySelector('.speed')
   const bar = speed.querySelector('.speed-bar')
   const video = document.querySelector('.flex')
-
+  
+// Event listener with anonymous function that controls speed based on location of mouse inside speed bar
   speed.addEventListener('mousemove', function(e) {
     const y = e.pageY - this.offsetTop;
     const percent = y / this.offsetHeight;
