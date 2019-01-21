@@ -18,7 +18,7 @@ function timer(seconds) {
             clearInterval(countdown);
             return;
         }
-        // display
+        // display seconds
         displayTimeLeft(secondsLeft)
     }, 1000)
 }
